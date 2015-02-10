@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Forms</title>
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    
+</head>
+
+
+<!-- this is a comment text -->
+
+<html>
+  <body>
+   <h1> Welcome to the library. </h2> 
+   <form action="/my-hand-form-page" method="post">
+
+     <div>
+       <label for="name">Name:</label>
+       <input type="text" id="name"/>
+     </div>
+     
+     <div>
+       <label for="birth">Date of birth:</label>
+       <input type="text" id="birth" name="userbirth" maxlength="10"/> <em> formated as mm/dd/yyyy </em>
+     </div>
+     
+     <div>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" />
+     </div>
+     
+     <div>
+       <label for="msg">Message:</label>
+       <textarea id="msg"></textarea>
+     </div>
+     
+     <div class="button">
+       <button type="submit">Send your message</button>
+     </div>
+     
+   </form>
+   
+  </body>
+</html>
